@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Durlav Bhattarai Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0f0f0f;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    color: #aaa;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+    border-left: 4px solid #00adb5;
+    padding-left: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.placeholder {
+    width: 100%;
+    height: 150px;
+    background: #333;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #00adb5;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+}
+
+.socials img {
+    width: 30px;
+    margin: 10px;
+    filter: invert(1);
+    cursor: pointer;
+}
+
+@media(max-width: 600px){
+    header h1 {
+        font-size: 2rem;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Durlav Bhattarai</h1>
+    <p>Coder / Designer</p>
+    <p>Hi, I am a basic guy trying to learn as I survive.</p>
+</header>
+
+<section>
+    <h2>Skills</h2>
+    <div class="grid">
+        <div class="card">Adobe Photoshop</div>
+        <div class="card">After Effects</div>
+        <div class="card">Premiere Pro</div>
+        <div class="card">InDesign</div>
+        <div class="card">Java</div>
+        <div class="card">Web Development</div>
+        <div class="card">Python</div>
+        <div class="card">CVAT</div>
+    </div>
+</section>
+
+<section>
+    <h2>Experience</h2>
+    <div class="card">
+        <p><strong>2020 - Present</strong></p>
+        <p>Graphics Designer</p>
+    </div>
+    <div class="card">
+        <p><strong>2026 - Present</strong></p>
+        <p>Data Annotation</p>
+    </div>
+</section>
+
+<section>
+    <h2>🎨 Design Portfolio</h2>
+    <div class="grid">
+        <div class="card">
+            <div class="placeholder"></div>
+            <p>Project Image / Video Placeholder</p>
+        </div>
+        <div class="card">
+            <div class="placeholder"></div>
+            <p>Project Image / Video Placeholder</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>💻 Programmer Portfolio</h2>
+    <div class="grid">
+        <div class="card">
+            <div class="placeholder"></div>
+            <h3>Moto Safa</h3>
+            <p>Garbage Disposal App</p>
+            <a href="#">GitHub Link</a>
+        </div>
+
+        <div class="card">
+            <div class="placeholder"></div>
+            <h3>GhumGham</h3>
+            <p>Tourism App</p>
+            <a href="#">GitHub Link</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Contact Me</p>
+    <div class="socials">
+        <!-- Replace links and images -->
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"></a>
+    </div>
+    <p>Email: your@email.com</p>
+</footer>
+
+</body>
+</html>
